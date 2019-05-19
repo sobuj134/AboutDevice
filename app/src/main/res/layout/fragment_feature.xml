@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/two"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_5sdp"
+        android:textSize="18sp"
+        android:ellipsize="marquee"
+        android:id="@+id/txtmodelname"
+       />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nearest_cc_frame"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_40sdp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtmodelname"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/feature_recycler"
+            android:layout_marginTop="@dimen/_30sdp">
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+
+</RelativeLayout>

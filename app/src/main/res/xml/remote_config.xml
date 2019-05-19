@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>is_admob_on</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>disable_admob_for</key>
+        <value>all</value>
+    </entry>
+    <entry>
+        <key>get_news_image_header</key>
+        <value>none</value>
+    </entry>
+    <entry>
+        <key>get_main_image_header</key>
+        <value>none</value>
+    </entry>
+    <entry>
+        <key>offer_banner_image_url</key>
+        <value>none</value>
+    </entry>
+    <entry>
+        <key>offer_banner_click_url</key>
+        <value>none</value>
+    </entry>
+    <entry>
+        <key>offer_banner_visibility</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>
